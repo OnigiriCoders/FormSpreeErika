@@ -13,12 +13,18 @@
 <body>
     <!-- modify this form HTML and place wherever you want your form -->
     <form action="https://formspree.io/f/meoqoayl" method="POST">
-        <label for="name" class="form-label">First and Last Name:</label>
-        <input id="name" class="form-control" type="text" name="name">
-        <label for="email" class="form-label">Email:</label>
-        <input id="email" class="form-control" type="email" name="email">
-        <label for="message" class="form-label">Your message:</label>
-        <textarea id="message" class="form-control" name="message" rows="3"></textarea>
+        <div class="box-field-form mb-3">
+            <label for="name" class="form-label">First and Last Name:</label>
+            <input id="name" class="form-control" type="text" name="name">
+        </div>
+        <div class="box-field-form mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input id="email" class="form-control" type="email" name="email">
+        </div>
+        <div class="box-field-form mb-3">
+            <label for="message" class="form-label">Your message:</label>
+            <textarea id="message" class="form-control" name="message" rows="3"></textarea>
+        </div>
         <div class="d-grid gap-2  w-100">
             <button class="btn btn-dark mb-3" type="submit">Send</button>
         </div>
