@@ -8,7 +8,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-     min-width: 40rem;
+    align-items: start;
+    min-width: 40rem;
 }
-
