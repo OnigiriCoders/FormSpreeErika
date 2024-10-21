@@ -9,4 +9,6 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+     min-width: 40rem;
 }
+
