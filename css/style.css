@@ -11,3 +11,9 @@ form {
     align-items: start;
     min-width: 40rem;
 }
+form label{
+    font-weight: bold;
+}
+form .form-control{
+    border: 1px solid #ccc;
+}
