@@ -4,6 +4,15 @@ body {
     align-items: center;
     height: 100vh;
 }
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 900*/
+
+.montserrat-erika {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -11,11 +20,13 @@ form {
     align-items: start;
     
 }
+
 form label{
     font-weight: bold;
 }
 form .form-control{
-    border: 1px solid #ccc;
+    border: 1px solid #000;
+    border-radius: 0;
 }
 @media screen and (min-width: 800px) {
     form {
@@ -25,5 +36,6 @@ form .form-control{
 @media screen and (max-width: 768px) {
     form {
         min-width: 20rem;
+        flex-basis: 90%;
     }
 }
