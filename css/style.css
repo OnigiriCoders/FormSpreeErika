@@ -9,11 +9,21 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    min-width: 40rem;
+    
 }
 form label{
     font-weight: bold;
 }
 form .form-control{
     border: 1px solid #ccc;
+}
+@media screen and (min-width: 800px) {
+    form {
+        min-width: 40rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    form {
+        min-width: 20rem;
+    }
 }
